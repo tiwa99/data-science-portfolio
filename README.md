@@ -30,3 +30,23 @@ This project was a collaborative team effort. My core responsibilities included:
 * **Tiwa Odumakinde** – Predictive Modeling (Linear Regression for 2023 Demand), Data Preprocessing & Feature Selection
 * **Vimala Mehrota** – Model Training & Hyperparameter Tuning
 * **Akhil Mishra** – Dashboard Development & Business Documentation
+
+
+---
+
+## Featured Project: Pokémon Stat & Clustering Analysis
+
+### 📌 Project Overview
+This project explores Pokémon base stats and elemental types using both **unsupervised clustering** and **supervised predictive modeling**. The goal is to identify distinct tier groupings among Pokémon profiles and build a machine learning model to evaluate how individual stats and types impact overall total performance.
+
+### 🛠️ Tech Stack & Methodologies
+* **Language:** Python
+* **Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
+* **Unsupervised Learning:** K-Means Clustering (Segmentation & Profile Analysis)
+* **Supervised Learning:** Multiple Linear Regression
+* **Data Processing:** One-Hot Encoding (Type categorization), Feature Scaling, Train/Test Splitting
+
+### 💡 Key Insights & Model Results
+* **Cluster Segmentation:** Identified distinct performance tiers across Pokémon (e.g., high-speed glass cannons vs. defensive tanks).
+* **Predictive Accuracy:** Achieved an $R^2$ score of **~92%** on test data, explaining over 92% of the variance in total stat scores.
+* **Coefficient Interpretation:** Demonstrated that primary types like Psychic (`+46.67`) and Fairy (`+38.49`) carry significant positive premiums in stat allocation, while physical stats contribute steady incremental additions to total power.
